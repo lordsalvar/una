@@ -8,12 +8,11 @@ enum PostType: string
     case Article = 'article';
     case News = 'news';
     case Blog = 'blog';
-    
+
     public function label(): string
     {
-        return match ($this){
+        return match ($this) {
             default => $this->name,
         };
     }
 }
-

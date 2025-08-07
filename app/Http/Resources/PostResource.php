@@ -2,13 +2,11 @@
 
 namespace App\Http\Resources;
 
-use Illuminate\Http\Request;
-use Illuminate\Http\Resources\Json\JsonResource;
-use App\Traits\Resources\Unwrappable;
 use App\Http\Resources\Enums\PostTypeResource;
 use App\Http\Resources\Misc\DateTimeResource;
-use App\Http\Resources\CreatorResource;
-
+use App\Traits\Resources\Unwrappable;
+use Illuminate\Http\Request;
+use Illuminate\Http\Resources\Json\JsonResource;
 
 class PostResource extends JsonResource
 {

@@ -2,11 +2,11 @@
 
 namespace App\Models;
 
+use App\Enums\PostType;
 use App\Traits\HasCreator;
 use App\Traits\HasUlid;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use App\Enums\PostType;
 
 class Post extends Model
 {
